@@ -9,15 +9,15 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
+    @IBOutlet weak var photoImageView: UIImageView!
 
 
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.description
+            if let imageView = self.photoImageView {
+                let fileName = "\(detail).png"
+                imageView.image = UIImage(named: fileName)
             }
         }
     }
@@ -26,6 +26,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.configureView()
+        self.title = "PCフリーゲーム"
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,7 +34,7 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: NSDate? {
+    var detailItem: String? {
         didSet {
             // Update the view.
             self.configureView()

@@ -15,12 +15,6 @@
 		3A23295C1E98B36400902A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A23295A1E98B36400902A63 /* LaunchScreen.storyboard */; };
 		3A2329671E98B36400902A63 /* PCfreegameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2329661E98B36400902A63 /* PCfreegameTests.swift */; };
 		3A2329721E98B36400902A63 /* PCfreegameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2329711E98B36400902A63 /* PCfreegameUITests.swift */; };
-		3A2735D11E98FD7E0050C519 /* Alice_mare.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2735CB1E98FD7E0050C519 /* Alice_mare.png */; };
-		3A2735D21E98FD7E0050C519 /* ib.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2735CC1E98FD7E0050C519 /* ib.png */; };
-		3A2735D31E98FD7E0050C519 /* 殺戮の天使.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2735CD1E98FD7E0050C519 /* 殺戮の天使.png */; };
-		3A2735D41E98FD7E0050C519 /* 真夜中の人形使い.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2735CE1E98FD7E0050C519 /* 真夜中の人形使い.png */; };
-		3A2735D51E98FD7E0050C519 /* 大海原と大海原.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2735CF1E98FD7E0050C519 /* 大海原と大海原.png */; };
-		3A2735D61E98FD7E0050C519 /* 霧雨が降る森.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2735D01E98FD7E0050C519 /* 霧雨が降る森.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +49,6 @@
 		3A23296D1E98B36400902A63 /* PCfreegameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCfreegameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2329711E98B36400902A63 /* PCfreegameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCfreegameUITests.swift; sourceTree = "<group>"; };
 		3A2329731E98B36400902A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A2735CB1E98FD7E0050C519 /* Alice_mare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alice_mare.png; sourceTree = "<group>"; };
-		3A2735CC1E98FD7E0050C519 /* ib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ib.png; sourceTree = "<group>"; };
-		3A2735CD1E98FD7E0050C519 /* 殺戮の天使.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "殺戮の天使.png"; sourceTree = "<group>"; };
-		3A2735CE1E98FD7E0050C519 /* 真夜中の人形使い.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "真夜中の人形使い.png"; sourceTree = "<group>"; };
-		3A2735CF1E98FD7E0050C519 /* 大海原と大海原.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大海原と大海原.png"; sourceTree = "<group>"; };
-		3A2735D01E98FD7E0050C519 /* 霧雨が降る森.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "霧雨が降る森.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,12 +104,6 @@
 				3A2329531E98B36400902A63 /* DetailViewController.swift */,
 				3A2329551E98B36400902A63 /* Main.storyboard */,
 				3A2329581E98B36400902A63 /* Assets.xcassets */,
-				3A2735CB1E98FD7E0050C519 /* Alice_mare.png */,
-				3A2735CC1E98FD7E0050C519 /* ib.png */,
-				3A2735CD1E98FD7E0050C519 /* 殺戮の天使.png */,
-				3A2735CE1E98FD7E0050C519 /* 真夜中の人形使い.png */,
-				3A2735CF1E98FD7E0050C519 /* 大海原と大海原.png */,
-				3A2735D01E98FD7E0050C519 /* 霧雨が降る森.png */,
 				3A23295A1E98B36400902A63 /* LaunchScreen.storyboard */,
 				3A23295D1E98B36400902A63 /* Info.plist */,
 			);
@@ -229,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3A2329471E98B36300902A63 /* Build configuration list for PBXProject "PCfreegame" */;
+			buildConfigurationList = 3A2329471E98B36300902A63 /* Build configuration list for PBXProject "PCfreegame2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -254,15 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A2735D51E98FD7E0050C519 /* 大海原と大海原.png in Resources */,
-				3A2735D21E98FD7E0050C519 /* ib.png in Resources */,
-				3A2735D41E98FD7E0050C519 /* 真夜中の人形使い.png in Resources */,
 				3A23295C1E98B36400902A63 /* LaunchScreen.storyboard in Resources */,
 				3A2329591E98B36400902A63 /* Assets.xcassets in Resources */,
 				3A2329571E98B36400902A63 /* Main.storyboard in Resources */,
-				3A2735D31E98FD7E0050C519 /* 殺戮の天使.png in Resources */,
-				3A2735D61E98FD7E0050C519 /* 霧雨が降る森.png in Resources */,
-				3A2735D11E98FD7E0050C519 /* Alice_mare.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +496,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A2329471E98B36300902A63 /* Build configuration list for PBXProject "PCfreegame" */ = {
+		3A2329471E98B36300902A63 /* Build configuration list for PBXProject "PCfreegame2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A2329741E98B36400902A63 /* Debug */,
